@@ -1,16 +1,13 @@
-# BootcampAlura_ProjetoModulo5
-## Previsão de quais pacientes precisarão ser admitidos na UTI devido a Covid-19
+# TechChallenge FIAP Fase 1
+## Análise prévia sobre importação / exportação de vinhos, e influência nos resultados de seus fatores internos e externos
 ![image](https://cdn.dooca.store/624/posts/regioes-produtoras-de-vinho-no-mundo.jpg?v=1628169177)
 
 
-Este projeto teve o objetivo de encontrar o modelo que melhor prevê quem precisará de UTI com base nos dados no desafio do [Kaggle do Sírio Libanes](https://www.kaggle.com/S%C3%ADrio-Libanes/covid19). Conseguir prever com antecedência é muito importante, por isso o foco foi conseguir ter uma boa previsibilidade logo no primeiro atendimento, com base nas medições da primeira janela horária do paciente no hospital, bem como na segunda janela horária.
+Este projeto tem o objetivo de encontrar a influência de fatores internos e externos na importação e exportação de vinhos do Brasil em relação à outros países.
 
-Testei 2 modelos para fazer a classificação, o de Regressão Logística e o Random Forest que tiveram performances parecidas, porém o Random Forest ficou um pouco a frente. Sendo que o ponto mais relevante foi a seleção das variáveis, tanto que no pipeline final foram utilizadas duas seleções de variáveis de forma sequencial para melhorar os resultados.
-
-Os testes, avaliações e conclusões podem ser vistos [neste notebook](https://github.com/ViniciusCastillo/BootcampAlura_ProjetoModulo5/blob/main/Notebooks/Seleciona_Modelo.ipynb), mas recomendo ler o resto deste Readme antes.
 
 ### Tratamento de dados
-Os dados utilizados foram os disponibilizados no desafio do [Kaggle do Sírio Libanes](https://www.kaggle.com/S%C3%ADrio-Libanes/covid19). 
+Os dados utilizados foram os disponibilizados no portal no COMEX STAT [Portal para acesso gratuito às estatísticas de comércio exterior do Brasil. Crie consultas detalhadas das exportações e importações brasileiras com as diversas variáveis da base de dados estatísticos.](http://comexstat.mdic.gov.br/en/geral/91544)). 
 
 Ao analisar esses dados identifiquei a necessidade de alguns tratamentos dos dados:
 * Retirar as linhas com marcação de UTI = 1

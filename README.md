@@ -1,6 +1,6 @@
 # BootcampAlura_ProjetoModulo5
 ## Previsão de quais pacientes precisarão ser admitidos na UTI devido a Covid-19
-![image](https://torresvedrasweb.pt/abc/uploads/2021/10/20200319-114657-covid192.jpg)
+![image](https://cdn.dooca.store/624/posts/regioes-produtoras-de-vinho-no-mundo.jpg?v=1628169177)
 
 
 Este projeto teve o objetivo de encontrar o modelo que melhor prevê quem precisará de UTI com base nos dados no desafio do [Kaggle do Sírio Libanes](https://www.kaggle.com/S%C3%ADrio-Libanes/covid19). Conseguir prever com antecedência é muito importante, por isso o foco foi conseguir ter uma boa previsibilidade logo no primeiro atendimento, com base nas medições da primeira janela horária do paciente no hospital, bem como na segunda janela horária.
